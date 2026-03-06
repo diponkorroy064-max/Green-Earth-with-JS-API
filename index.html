@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- Title -->
     <title>Green-Earth</title>
 
@@ -23,6 +24,18 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Style -->
+    <style>
+        * {
+            font-family: "Inter", sans-serif;
+        }
+    </style>
 
 </head>
 
@@ -53,7 +66,44 @@
         </section>
     </section>
 
-    
+
+    <!-- Choose Your Trees section -->
+    <main class="mt-5 mx-auto bg-[#DCFCE7]">
+        <h2 class="text-[32px] font-bold text-green-500 text-center mb-5">Choose Your Trees</h2>
+
+        <section class="grid grid-cols-12 gap-5 px-10 mx-auto text-center  ">
+
+            <!-- categories -->
+            <div class="bg-red-500 col-span-2 shadow rounded-md">
+                <h2 class="font-bold text-2xl text-white">Categories</h2>
+
+                <div class="space-y-5 px-2.5">
+                    <button id="all-trees-btn" class="btn btn-wide">All Trees</button>
+
+                    <!-- categories container -->
+                    <div id="categoriesContainer" class="space-y-3 mb-3">
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Trees -->
+            <div class="bg-white col-span-8 p-2.5 rounded-md">
+                <div id="trees-container" class="grid grid-cols-1 gap-5 sm:grid-cols-3">
+
+                </div>
+            </div>
+
+            <!-- card -->
+            <div class="bg-green-500 col-span-2 rounded-md">
+                <h2>Card</h2>
+            </div>
+        </section>
+    </main>
+
+
+
+
 
 
     <!-- Our Impact section -->
@@ -98,7 +148,7 @@
     </section>
 
 
-    <!-- All Rights Reserved section -->
+    <!-- All Rights Reserved footer section -->
     <section class="bg-[#14532D] text-center p-6">
         <h3 class="text-[#FFFFFF] text-[16px]">© 2025 Green Earth. All Rights Reserved.</h3>
     </section>
